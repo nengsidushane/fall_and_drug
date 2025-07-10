@@ -1,0 +1,27 @@
+serverAddr = "guardianship_system.andtilly.top"
+serverPort = 7000
+
+auth.method = "token"
+auth.token = "12345678"
+
+loginFailExit = true
+
+log.to = "./frpc.log"
+log.level = "info"
+log.maxDays = 3
+log.disablePrintColor = false
+
+user = "orange"
+
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 22
+remotePort = 6000
+
+[[proxies]]
+name = "web"
+type = "http"
+localPort = 5000
+customDomains = ["guardianship_system.andtilly.top"]

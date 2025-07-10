@@ -1,0 +1,7 @@
+2025-06-29 00:35:48.577 [I] [client/service.go:314] [e4ecf0f87b706ec8] try to connect to server...
+2025-06-29 00:35:58.583 [W] [client/service.go:317] [e4ecf0f87b706ec8] connect to server error: dial tcp 154.219.98.195:7000: i/o timeout
+2025-06-29 00:36:00.656 [I] [client/service.go:314] [e4ecf0f87b706ec8] try to connect to server...
+2025-06-29 00:36:08.223 [I] [client/service.go:306] [e4ecf0f87b706ec8] login to server success, get run id [e4ecf0f87b706ec8]
+2025-06-29 00:36:08.224 [I] [proxy/proxy_manager.go:177] [e4ecf0f87b706ec8] proxy added: [orange.test-tcp orange.web]
+2025-06-29 00:36:08.274 [I] [client/control.go:172] [e4ecf0f87b706ec8] [orange.web] start proxy success
+2025-06-29 00:36:08.321 [I] [client/control.go:172] [e4ecf0f87b706ec8] [orange.test-tcp] start proxy success
